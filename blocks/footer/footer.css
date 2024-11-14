@@ -10,7 +10,8 @@ footer .footer > div {
 }
 
 footer .footer p {
-  margin: 0;
+    color: #000;
+    margin: 0;
 }
 
 @media (width >= 900px) {
