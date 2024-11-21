@@ -1,9 +1,17 @@
 /* header and nav layout */
-header .nav-wrapper {
-  background-color: var(--background-color);
-  width: 100%;
-  z-index: 2;
-  position: fixed;
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    padding: 0;
+}
+.nav-wrapper {
+    background-color: #fff;
+}
+header {
+    height: 70px;
 }
 
 header nav {
@@ -265,4 +273,14 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+header .header-topbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-transform: uppercase;
+    
 }
